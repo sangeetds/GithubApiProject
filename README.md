@@ -24,6 +24,10 @@ Where the 'username' is the login id of your Github account and 'tokenOrPassword
 # Sample run of the CLI
 
 Here are a few sample run of the app run with instructions provided above. 
-![alt text](https://github.com/sangeetds/GithubApiProject/blob/main/images/test_one.png?raw=true)
 
+Sample run without login credentials
 ![alt text](https://github.com/sangeetds/GithubApiProject/blob/main/images/test_two.png)
+
+Sample run with login credentials provided.
+![alt text])https://github.com/sangeetds/GithubApiProject/blob/main/images/test_three.png)
+
