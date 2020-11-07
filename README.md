@@ -29,5 +29,5 @@ Sample run without login credentials
 ![alt text](https://github.com/sangeetds/GithubApiProject/blob/main/images/test_two.png)
 
 Sample run with login credentials provided.
-![alt text])https://github.com/sangeetds/GithubApiProject/blob/main/images/test_three.png)
+![alt text](https://github.com/sangeetds/GithubApiProject/blob/main/images/test_three.png)
 
