@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+task=$1
+shift 1
+
+if ./gradlew --quiet installDist; then
+  ./build/install/GithubAPI/bin/GithubAPI "$@"
+else
+  echo "Gradle task failed. Please check your files for any errors and run 'gradle build' followed by './gradlew installDist' and try again" >&2
+fi
+
