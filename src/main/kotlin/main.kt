@@ -60,11 +60,8 @@ class Hello : CliktCommand(
 
         echo("Repository wise top $committees committees:")
         repoList?.forEach { repo ->
+            echo("Top commits for ${repo.name}:")
             committeesList[repo.name] = githubAPI.getTopUsers(repo)!!
-        }
-
-        repoList?.forEach { repo ->
-            echo("${repo.name}:")
             committeesList[repo.name]?.forEach { user ->
                 echo("Name: ${user.author.login} \t Commits: ${user.total}")
             }
