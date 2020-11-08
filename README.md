@@ -6,7 +6,7 @@ Please ensure the JRE, Kotlin and gradle is installed in your local machine. The
 
 Please run this command when you are running the program for the first time to ensure a smooth build. 
 ```
-gradle build/Users/sangeetnarayan/Desktop/Screenshot 2020-11-07 at 18.54.22.png
+gradle build
 ```
 
 On successful build, to run the CLI without providing user credential (The Github API limits non authorized requests to 60 requests per hour)
