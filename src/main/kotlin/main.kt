@@ -53,12 +53,12 @@ class Hello : CliktCommand(
         val repoList = githubAPI.getRepos()
         val committeesList = HashMap<String, List<User>>()
 
-        echo("These are top $repositoriesCount popular repositories for ${organisationName.trim().capitalize()}: ")
+        echo("These are top $repositoriesCount popular repositories for ${organisationName.trim().capitalize()}:")
         repoList?.forEach { repo ->
             echo("Name: ${repo.name} \t Fork Count: ${repo.forks_count}")
         }
 
-        echo("Repository wise top $committees committees:")
+        echo("\nRepository wise top $committees committees:")
         repoList?.forEach { repo ->
             echo("Top commits for ${repo.name}:")
             committeesList[repo.name] = githubAPI.getTopUsers(repo)!!
