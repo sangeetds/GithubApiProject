@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-task=$1
-shift 1
-
 if ./gradlew --quiet installDist; then
   ./build/install/GithubAPI/bin/GithubAPI "$@"
 else
