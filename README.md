@@ -2,7 +2,7 @@
 A CLI written in Kotlin which displays top committees of popular repositories of Github organizations. The name of the organization, the number of repositories to be displayed and the number of committees to be displayed are entered when prompted. 
 
 # How to Run the program
-Please ensure the JRE, Kotlin and gradle is installed in your local machine. The rest of the dependencies are installed by gradle. 
+Please ensure the JDK(15 and above) , Kotlin(1.4 and above) and Gradle(v 6.3 and above) is installed on your local machine. The rest of the dependencies are installed by gradle. 
 
 Please run this command when you are running the program for the first time to ensure a smooth build. 
 ```
