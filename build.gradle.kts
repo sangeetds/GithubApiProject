@@ -16,7 +16,7 @@ repositories {
 dependencies {
     val retrofitVersion = "2.9.0"
     val coroutinesVersion = "1.4.1"
-    val moshiVersion = "1.11.0"
+    val moshiVersion = "1.15.1"
     val cliktVersion = "3.0.1"
 
     implementation("com.github.ajalt.clikt:clikt:$cliktVersion")
