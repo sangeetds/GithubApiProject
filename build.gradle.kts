@@ -1,9 +1,9 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.4.0"
+    kotlin("jvm") version "2.1.10"
     application
-    kotlin("kapt") version "1.4.10"
+    kotlin("kapt") version "2.1.10"
 }
 
 group = "me.sangeetnarayan"
